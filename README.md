@@ -73,7 +73,7 @@ O:
 
 ## 📘 Cómo reproducir el análisis
 
-1. Abre `adb_mobility_economy_project.ipynb`
+1. Abre `data_cleaning_eda_ecommerce.ipynb`
 2. Ejecuta las celdas en orden
 3. El notebook carga automáticamente el dataset desde `/data/` o desde un enlace público (según corresponda)
 
