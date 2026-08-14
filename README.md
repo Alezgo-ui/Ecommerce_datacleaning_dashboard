@@ -19,10 +19,15 @@ El análisis permitirá entender el desempeño del servicio y detectar oportunid
 El análisis comienza con tres fuentes principales:
 
 rappiplus_orders_raw.csv
+
  -Cada fila representa un pedido realizado en la plataforma.
+ 
 rappiplus_catalog.csv
+
  -Cada fila representa un producto disponible en la plataforma.
+ 
 rappiplus_marketing_spend.csv
+
  -Cada fila representa una inversión en marketing realizada en un país y canal específico.
 
 🗂️ Fuente de datos
