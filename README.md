@@ -24,7 +24,7 @@ rappiplus_orders_raw.csv
  
 rappiplus_catalog.csv
 
-   -Cada fila representa un producto disponible en la plataforma.
+   - Cada fila representa un producto disponible en la plataforma.
  
 rappiplus_marketing_spend.csv
 
@@ -40,11 +40,11 @@ Para este análisis se utilizarán las siguientes tablas:
 
 Tabla users → Información de registro de usuarios.
 
-   -Cada fila representa un usuario registrado en la plataforma.
+   - Cada fila representa un usuario registrado en la plataforma.
  
 Tabla user_activity → Actividad de los usuarios después del registro.
 
-   -Cada fila representa la actividad de un usuario después de su registro.
+   - Cada fila representa la actividad de un usuario después de su registro.
 
 ## 📂 Contenido del repositorio
 
