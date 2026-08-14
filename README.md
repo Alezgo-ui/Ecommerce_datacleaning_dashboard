@@ -14,7 +14,7 @@ Existen dudas clave:
 Para responder estas preguntas, trabajare con datos de pedidos, catálogo y marketing.
 
 El análisis permitirá entender el desempeño del servicio y detectar oportunidades concretas de mejora.
-
+---
 
 📂 Dataset del proyecto
 El análisis comienza con tres fuentes principales:
@@ -30,7 +30,7 @@ rappiplus_catalog.csv
 rappiplus_marketing_spend.csv
 
    - Cada fila representa una inversión en marketing realizada en un país y canal específico.
-
+---
 
 🗂️ Fuente de datos
 Para este análisis se utilizará la siguiente tabla:
