@@ -20,15 +20,15 @@ El análisis comienza con tres fuentes principales:
 
 rappiplus_orders_raw.csv
 
- -Cada fila representa un pedido realizado en la plataforma.
+   - Cada fila representa un pedido realizado en la plataforma.
  
 rappiplus_catalog.csv
 
- -Cada fila representa un producto disponible en la plataforma.
+   -Cada fila representa un producto disponible en la plataforma.
  
 rappiplus_marketing_spend.csv
 
- -Cada fila representa una inversión en marketing realizada en un país y canal específico.
+   - Cada fila representa una inversión en marketing realizada en un país y canal específico.
 
 🗂️ Fuente de datos
 Para este análisis se utilizará la siguiente tabla:
@@ -39,9 +39,12 @@ events, que se encuentra almacenada en una base de datos.
 Para este análisis se utilizarán las siguientes tablas:
 
 Tabla users → Información de registro de usuarios.
- -Cada fila representa un usuario registrado en la plataforma.
+
+   -Cada fila representa un usuario registrado en la plataforma.
+ 
 Tabla user_activity → Actividad de los usuarios después del registro.
- -Cada fila representa la actividad de un usuario después de su registro.
+
+   -Cada fila representa la actividad de un usuario después de su registro.
 
 ## 📂 Contenido del repositorio
 
