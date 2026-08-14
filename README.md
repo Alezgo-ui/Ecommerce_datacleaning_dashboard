@@ -14,6 +14,7 @@ Existen dudas clave:
 Para responder estas preguntas, trabajare con datos de pedidos, catálogo y marketing.
 
 El análisis permitirá entender el desempeño del servicio y detectar oportunidades concretas de mejora.
+
 ---
 
 📂 Dataset del proyecto
