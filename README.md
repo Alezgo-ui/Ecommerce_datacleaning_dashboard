@@ -37,6 +37,7 @@ rappiplus_marketing_spend.csv
 Para este análisis se utilizará la siguiente tabla:
 
 events, que se encuentra almacenada en una base de datos.
+
 ⚙️ Nota: La conexión a esta base de datos se realizará desde el Jupyter Notebook.
 
 Para este análisis se utilizarán las siguientes tablas:
