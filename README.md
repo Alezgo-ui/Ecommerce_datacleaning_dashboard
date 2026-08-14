@@ -42,6 +42,8 @@ Para este análisis se utilizará la siguiente tabla:
 
 Para este análisis se utilizarán las siguientes tablas:
 
+---
+
 Tabla users → Información de registro de usuarios.
 
    - Cada fila representa un usuario registrado en la plataforma.
