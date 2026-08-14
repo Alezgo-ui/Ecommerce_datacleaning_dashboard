@@ -51,6 +51,7 @@ Tabla user_activity → Actividad de los usuarios después del registro.
 
 ---
 
+
 ## 📂 Contenido del repositorio
 
 - `data_cleaning_eda_ecommerce.ipynb`
