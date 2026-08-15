@@ -19,7 +19,7 @@ Esquema de estrella con las siguientes tablas:
 
 ## Página 1 — Resumen Ejecutivo
 
-![Resumen Ejecutivo](./screenshots/dashboard1_resumen_ejecutivo.png)
+![Resumen Ejecutivo](.screenshots/resumen_ejecutivo.png)
 
 Vista general orientada a un ejecutivo: salud del negocio en un vistazo, sin necesidad de explorar el detalle.
 
@@ -39,24 +39,20 @@ Cinco tarjetas con las métricas principales del negocio:
 Construidas con medidas DAX documentadas con comentarios (`Revenue Total`, `Costo Total`, `Gasto Marketing`, `Profit Total`, `Ticket Promedio`, `Cantidad Promedio por Orden`).
 
 ### Evolución mensual: revenue vs profit
-![Evolución mensual](./screenshots/dashboard1_evolucion_mensual.png)
 
 Gráfico de líneas con `Dim_Fecha[Año-Mes]` en el eje X y `Revenue Total` / `Profit Total` como valores. Requirió dos ajustes:
 - Cambiar el eje de `Date` (nivel día) a `Año-Mes` (nivel mes), para evitar ruido visual de cientos de puntos diarios.
 - Corregir el orden cronológico del eje con una columna auxiliar `Orden Mes` (`YEAR * 100 + MONTH`) vinculada vía "Sort by column", ya que `Año-Mes` es texto y se ordenaba alfabéticamente por defecto.
 
 ### Revenue y Profit YTD
-![Revenue y Profit YTD](./screenshots/dashboard1_ytd.png)
 
 Gráfico de líneas acumulado, usando `TOTALYTD()` sobre `Revenue Total` y `Profit Total`. Como el dataset cubre solo enero-junio 2025 (medio año, sin datos de años anteriores), el acumulado de junio equivale al total del periodo completo.
 
 ### Revenue y Profit por categoría de producto
-![Revenue y profit por categoría](./screenshots/dashboard1_categoria.png)
 
 Gráfico de barras agrupadas por `orders_clean[categoria_producto]`. Usa la medida `Profit Bruto por Producto` (Revenue menos Costo, **sin** restar Gasto Marketing) en vez de `Profit Total`, porque `marketing_clean` no tiene ninguna columna de producto/categoría con la cual prorratear el gasto de forma real — forzar esa relación habría distorsionado el número.
 
 ### Revenue y Profit por país
-![Revenue y profit por país](./screenshots/dashboard1_pais.png)
 
 Gráfico de barras agrupadas por `orders_clean[pais]`, usando `Revenue Total` y `Profit Total` (sí incluye marketing, a diferencia del gráfico por categoría). Esto fue posible porque `marketing_clean` sí tiene una columna `pais` con el mismo formato que `orders_clean[pais]`, así que `Gasto Marketing` se corrigió para usar `TREATAS` doble (fecha y país simultáneamente), permitiendo que el filtro cruzado funcione correctamente en ambas dimensiones sin crear una relación física.
 
@@ -64,7 +60,7 @@ Gráfico de barras agrupadas por `orders_clean[pais]`, usando `Revenue Total` y 
 
 ## Página 2 — Detalle / Drill-through
 
-![Detalle](./screenshots/dashboard2_detalle.png)
+![Detalle](./screenshots/detalle.png)
 
 Vista de exploración: permite ir del KPI general a cada orden o producto individual.
 
@@ -87,7 +83,7 @@ Botón "Volver al resumen" para regresar a la Página 1.
 
 ## Página 3 — Detalle de Producto (drill-through)
 
-![Drill-through](./screenshots/dashboard3_drillthrough.png)
+![Drill-through](./screenshots/detalle_producto.png)
 
 Página de destino del drill-through, configurada con `orders_clean[nombre_producto]` como campo de drill-through. Al llegar desde el gráfico "Cantidad Vendida por Producto" de la Página 2, esta tabla se filtra automáticamente al producto seleccionado (ejemplo en la imagen: `Vacuum-Pro-Black`, 6,284 unidades totales, coincidiendo exacto con el valor del gráfico de origen).
 
