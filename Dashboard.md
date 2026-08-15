@@ -15,6 +15,8 @@ Esquema de estrella con las siguientes tablas:
 - `Dim_Fecha[Date]` → `orders_clean[fecha_hora_pedido]` (1 a muchos, dirección única)
 - `catalog_clean[nombre_producto]` → `orders_clean[nombre_producto]` (1 a muchos, dirección única)
 
+![Mapa Estrella](./screenshots/resumen_ejecutivo.png) 
+
 ---
 
 ## Página 1 — Resumen Ejecutivo
