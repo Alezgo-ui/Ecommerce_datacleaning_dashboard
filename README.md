@@ -2,7 +2,7 @@
 
 Introducción:
 
-En esta ocasion debo trbaajar para RappiPlus: un servicio de suscripción dentro del ecosistema de Rappi diseñado para aumentar la frecuencia de compra y el valor generado por usuario.
+En esta ocasion debo trabajar para RappiPlus: un servicio de suscripción dentro del ecosistema de Rappi diseñado para aumentar la frecuencia de compra y el valor generado por usuario.
 
 Sin embargo, el equipo de negocio no tiene claro si el servicio está cumpliendo su objetivo.
 
