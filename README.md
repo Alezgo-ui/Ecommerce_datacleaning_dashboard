@@ -60,6 +60,15 @@ Tabla user_activity → Actividad de los usuarios después del registro.
 - `data_cleaning_eda_ecommerce.ipynb`
   → Notebook  completo de limpieza y análisis exploratorio de datos (EDA) hasta la generación de insights listos para tomar decisiones de negocio.
 
+- `Dashboard Rappi.pbix`
+  → Archivo que contiene el dashboard para descarga/lectura en PowerBI.
+
+- `Dashboard.md`
+  → Notebook que describe el proceso de creacion completo y logica del dashboard.
+
+- `screenshots`
+  → Referencias visuales para el dashboard.    
+
 ## ▶ Cómo abrir el notebook en Google Colab
 
 Haz clic en el siguiente botón:
