@@ -19,7 +19,7 @@ Esquema de estrella con las siguientes tablas:
 
 ## Página 1 — Resumen Ejecutivo
 
-![Resumen Ejecutivo](.screenshots/resumen_ejecutivo.png) 
+![Resumen Ejecutivo](./screenshots/resumen_ejecutivo.png) 
 
 Vista general orientada a un ejecutivo: salud del negocio en un vistazo, sin necesidad de explorar el detalle.
 
